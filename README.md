@@ -143,3 +143,29 @@ Pertanyaan kedua didapat dari mendownload 13 gambar yang tersedia lalu menjalank
 Pertanyaan ketiga didapat dengan menyusun anagram dan didapat flagnya
 
 ![Screenshot 2024-09-19 000435](https://github.com/user-attachments/assets/612ebbaf-7ee4-4e03-b459-e7468b46f10f)
+
+## 14. 22 Nightmare
+
+Pertanyaan pertama didapat dari mengecek stream
+
+![Screenshot 2024-09-19 001521](https://github.com/user-attachments/assets/daab76cf-8c97-4007-a058-30a2af6dcf89)
+
+Pertanyaan kedua didapat dari mendownload jpg lalu membuka isinya
+
+![Screenshot 2024-09-19 003640](https://github.com/user-attachments/assets/58fafb8c-8017-4da7-a8cd-27faaa81e124)
+
+Pertanyaan ketiga didapat dari mengecek stream
+
+![Screenshot 2024-09-19 003805](https://github.com/user-attachments/assets/64374c9d-81c1-4903-8009-fb4debe04daf)
+
+Pertanyaan keempat didapat dari stream ke-142 dimana binernya dikonversi ke UTF lalu di XOR kan dengan key NUN
+
+![Screenshot 2024-09-19 004510](https://github.com/user-attachments/assets/1835719e-ff30-4c7d-89d0-e56af720335f)
+
+![Screenshot 2024-09-19 004500](https://github.com/user-attachments/assets/3a47bcbe-cd3b-400b-9c25-d4f1abb37110)
+
+Flag
+
+![Screenshot 2024-09-19 004529](https://github.com/user-attachments/assets/3f159dd1-7ddf-4f8f-94f4-4ad19ecda001)
+
+## 15. inneRCE
