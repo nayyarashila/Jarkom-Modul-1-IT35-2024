@@ -6,8 +6,6 @@
 | Nayyara Ashila | 5027231083 |
 
 ### 1. Advance Sanity Check
-![image](https://github.com/user-attachments/assets/8b0caf60-2864-4ee3-8fac-721a0ec12762)
-
 Soal pertama kita diminta untuk memasukkan username, pada bagian kanan bawah kalau di scroll ketemu username nya yaitu JaneD03
 
 ![Screenshot 2024-09-18 194357](https://github.com/user-attachments/assets/94cf0324-a66e-47c8-b445-ef47a73be808)
@@ -19,6 +17,8 @@ Kemudian jika kita scroll ke bawah lagi maka akan ketemu filenya dengan format y
 ![image](https://github.com/user-attachments/assets/bf8d95a9-3e5f-4d76-abd7-0b35b497ee86)
 
 Setelah mengisi kata tersebut maka flag nya muncul seperti dibawah
+
+![image](https://github.com/user-attachments/assets/8b0caf60-2864-4ee3-8fac-721a0ec12762)
 
 
 ### 2. Illegal Breakthrough
