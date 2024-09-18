@@ -130,3 +130,16 @@ Flag
 
 ![Screenshot 2024-09-18 233554](https://github.com/user-attachments/assets/713be9e1-ec41-4b67-a336-3421931c30c0)
 
+### 12. Stegography
+
+Pertanyaan pertama didapat dari memfilter frame yang berisi PNG
+
+![Screenshot 2024-09-18 234022](https://github.com/user-attachments/assets/5afbe138-9d55-4c3d-b3b7-e16be61f19b5)
+
+Pertanyaan kedua didapat dari mendownload 13 gambar yang tersedia lalu menjalankan reverse.py yang disediakan oleh soal
+
+![Screenshot 2024-09-19 000449](https://github.com/user-attachments/assets/dfb5636a-5a7a-47de-a438-9c15c05baa41)
+
+Pertanyaan ketiga didapat dengan menyusun anagram dan didapat flagnya
+
+![Screenshot 2024-09-19 000435](https://github.com/user-attachments/assets/612ebbaf-7ee4-4e03-b459-e7468b46f10f)
