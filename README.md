@@ -169,3 +169,29 @@ Flag
 ![Screenshot 2024-09-19 004529](https://github.com/user-attachments/assets/3f159dd1-7ddf-4f8f-94f4-4ad19ecda001)
 
 ## 15. inneRCE
+
+Pertanyaan pertama didapat dari mengecek frame yang berisi "shell" lalu dicek arrival timenya
+
+![image](https://github.com/user-attachments/assets/3013b3db-f6e4-4f1f-8882-99647fe5097f)
+
+Pertanyaan kedua didapat dari mengecek dari stream
+
+![Screenshot 2024-09-19 023057](https://github.com/user-attachments/assets/b2a4dfb4-18f2-4e91-a03c-2b3687fe66c3)
+
+Pertanyaan ketiga juga dapat diselesaikan dari gambar di atas
+
+Pertanyaan keempat dapat dijawab dengan melihat urutan waktu dari frame yang berisi "shell"
+
+![image](https://github.com/user-attachments/assets/f0724a4a-a5d9-4989-9aef-43089b595e09)
+
+Pertanyaan kelima didapat dari mengecek base64 yang diecho 
+
+![image](https://github.com/user-attachments/assets/c5f7e81d-f8ca-4c36-bcf9-8b273e1de806)
+
+![image](https://github.com/user-attachments/assets/ea876b8f-324c-4867-a26d-2b7e41d4afb9)
+
+Flag
+
+![image](https://github.com/user-attachments/assets/7437d0e4-3278-4dca-8aa6-9ecd80b2e305)
+
+
