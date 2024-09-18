@@ -10,6 +10,7 @@ Soal pertama kita diminta untuk memasukkan username, pada bagian kanan bawah kal
 
 ![Screenshot 2024-09-18 194357](https://github.com/user-attachments/assets/94cf0324-a66e-47c8-b445-ef47a73be808)
 
+
 ![image](https://github.com/user-attachments/assets/3bcda38c-4109-40c6-8fb2-099075627bf3)
 
 Kemudian jika kita scroll ke bawah lagi maka akan ketemu filenya dengan format yang sesuai dengan yang diminta yaitu `clue3.txt` dan karena kita diminta untuk mencari hidden word dari ppt praktikum yaitu `cGVud29yZA==` setelah saya coba translate maka keluar hasilnya `penword` seperti foto dibawah
@@ -18,12 +19,22 @@ Kemudian jika kita scroll ke bawah lagi maka akan ketemu filenya dengan format y
 
 Setelah mengisi kata tersebut maka flag nya muncul ```JarkomIT{8uK4n_S4n1ty_b1a5A_NG6mtQVcQR8S3xkzYnhemX5DDSu5gHEDT2i8FqhR7m0QPf4VyMn5OIKK}``` seperti foto dibawah
 
+
 ![image](https://github.com/user-attachments/assets/8b0caf60-2864-4ee3-8fac-721a0ec12762)
 
 
 ### 2. Illegal Breakthrough
-Maka ketemu flagnya ```JarkomIT{d34th_fr0m_th3_sky_eVLCFiVmEs6ivZzSBLaOjIlX7H1UD2hdgdRRynPVvJz7RhUag1nuWW1}```
-![Screenshot 2024-09-18 224803](https://github.com/user-attachments/assets/2d35004b-fdf0-4c78-b5f6-9861bb4ab641)
+Pada soal ini karena kita diminta untuk memasukkan ip address maka bisa dilihat yaitu ip nya `172.21.88.207` kemudian apabila dilihat port yang dipakai `1917`
+Disini terdapat nama dan password yang benar apabila di scroll, karena sebelumnya kebanyakan yang berisi username dan password salah
+
+![Screenshot 2024-09-18 224803](https://github.com/user-attachments/assets/38dd42d4-59a2-45b2-b561-0139994bfdeb)
+
+Maka setelah saya masukkan username sesuai ketentuan dan juga kredensial nya ketemu flagnya ```JarkomIT{d34th_fr0m_th3_sky_eVLCFiVmEs6ivZzSBLaOjIlX7H1UD2hdgdRRynPVvJz7RhUag1nuWW1}``` seperti foto dibawah
+
+![image](https://github.com/user-attachments/assets/21fd6998-12cb-433d-b1a7-9a7f1e07a63c)
+
+![image](https://github.com/user-attachments/assets/9e992541-3be2-4968-828b-d0a1be201fe3)
+
 
 ### Pegawai Negeri Sebelah
 Maka ketemu flagnya yaitu ```JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_wEsBuGICvKvgGn8UdXxWV7R8QL3Pdkf13GT79rrbrNvxGDZj2XlHM4h}```
