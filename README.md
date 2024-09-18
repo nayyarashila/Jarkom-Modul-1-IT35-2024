@@ -105,3 +105,28 @@ Flag
 Pertanyaan pertama didapat dari membaca dari wireshark, pertanyaan selanjutnya dapat terjawab jika menjalankan jarm dengan domain www.its.ac.id
 
 ![Screenshot 2024-09-18 231155](https://github.com/user-attachments/assets/d012f9a2-3f29-469e-b318-5f26f3cf5763)
+
+### 11. Malicious Code
+
+Pertanyaan pertama didapat dari memfilter frame yang berisi GET
+
+![image](https://github.com/user-attachments/assets/814c76cd-febc-46bf-afa9-1e1036a5bf6a)
+
+Pertanyaan kedua didapat dari GET terakhir yang dilakukan
+
+![Screenshot 2024-09-18 231659](https://github.com/user-attachments/assets/409a0213-c71d-4bbd-b3d7-da4fb9fdbb0c)
+
+Pertanyaan ketiga didapat dari attempt terakhir yaitu di stream 207 dikurangkan dengan 54 yaitu stream terakhir sebelum attempt pertama
+
+![Screenshot 2024-09-18 232446](https://github.com/user-attachments/assets/5ff90e3d-6b8c-4595-a1f4-0846b1afd855)
+
+Pertanyaan keempat didapat dengan decode ASCII ke TEXT
+
+![image](https://github.com/user-attachments/assets/ca5e990f-b44f-4241-ae84-4f69c8eaba28)
+
+![Screenshot 2024-09-18 233540](https://github.com/user-attachments/assets/0c261c71-7393-4453-9bb3-f7b6698b4554)
+
+Flag
+
+![Screenshot 2024-09-18 233554](https://github.com/user-attachments/assets/713be9e1-ec41-4b67-a336-3421931c30c0)
+
