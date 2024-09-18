@@ -79,5 +79,23 @@ Maka ketemu flagnya ``` JarkomIT{G4jaH_K0k_t3RbaNG_LeQuu8Zh476F8FOdm1DXnblAuYntq
 
 ![Screenshot 2024-09-18 232512](https://github.com/user-attachments/assets/46955747-119e-41a6-aca0-7260e583d5c7)
 
+### 9. Packets Barrage
+Pertanyaan pertama dapat dilihat dari source
 
+![image](https://github.com/user-attachments/assets/34c2d44f-4285-4830-aeb5-c8a23e3de8fc)
 
+Pertanyaan kedua dapat dilihat dari stream
+
+![image](https://github.com/user-attachments/assets/f5fa3b9e-cfac-45d5-993f-c4644ae1a953)
+
+Pertanyaan ketiga didapatkan dengan mendownload file Regex.zip lalu mengekstraknya
+
+![Screenshot 2024-09-18 222943](https://github.com/user-attachments/assets/db0af7c4-e82d-484e-a165-fe8058a5d4a3)
+
+Pertanyaan keempat didapatkan dengan membuka file Albatros.txt
+
+![Screenshot 2024-09-18 223009](https://github.com/user-attachments/assets/c6f2de1a-6d1d-41c1-bcc1-fcecd984c0e5)
+
+Flag
+
+![Screenshot 2024-09-18 223040](https://github.com/user-attachments/assets/77450f79-6a77-48ad-b360-574f3ffb90a9)
