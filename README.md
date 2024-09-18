@@ -5,8 +5,10 @@
 | RM Novian Malcolm Bayuputra | 5027231035 |
 | Nayyara Ashila | 5027231083 |
 
+### 1. Advance Sanity Check
+![image](https://github.com/user-attachments/assets/8b0caf60-2864-4ee3-8fac-721a0ec12762)
 
-### - Illegal Breakthrough
+### 2. Illegal Breakthrough
 ![Screenshot 2024-09-18 224803](https://github.com/user-attachments/assets/2d35004b-fdf0-4c78-b5f6-9861bb4ab641)
 
 
@@ -17,4 +19,9 @@
 
 ![Screenshot 2024-09-18 230354](https://github.com/user-attachments/assets/2bc16bea-923e-439d-abda-f4036d0f2cb6)
 
+### - Gajah Terbang (Attacker Recon)
+
+![Screenshot 2024-09-18 232512](https://github.com/user-attachments/assets/46955747-119e-41a6-aca0-7260e583d5c7)
+
+![Screenshot 2024-09-18 232536](https://github.com/user-attachments/assets/fa654932-3f84-4f91-90b4-22902f8bb963)
 
