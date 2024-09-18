@@ -99,3 +99,9 @@ Pertanyaan keempat didapatkan dengan membuka file Albatros.txt
 Flag
 
 ![Screenshot 2024-09-18 223040](https://github.com/user-attachments/assets/77450f79-6a77-48ad-b360-574f3ffb90a9)
+
+### 10. Rizzset
+
+Pertanyaan pertama didapat dari membaca dari wireshark, pertanyaan selanjutnya dapat terjawab jika menjalankan jarm dengan domain www.its.ac.id
+
+![Screenshot 2024-09-18 231155](https://github.com/user-attachments/assets/d012f9a2-3f29-469e-b318-5f26f3cf5763)
