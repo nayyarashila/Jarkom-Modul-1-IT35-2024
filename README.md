@@ -5,17 +5,30 @@
 | RM Novian Malcolm Bayuputra | 5027231035 |
 | Nayyara Ashila | 5027231083 |
 
+# Modul 1
+
+
 ## 1. Advance Sanity Check
 Soal pertama kita diminta untuk memasukkan username, pada bagian kanan bawah kalau di scroll ketemu username nya yaitu JaneD03
 
 ![Screenshot 2024-09-18 194357](https://github.com/user-attachments/assets/94cf0324-a66e-47c8-b445-ef47a73be808)
 
+Soal kedua kita diminta nama file, jika di scroll ketemu nama filenya `clue3.txt` sesuai format soal
 
-![image](https://github.com/user-attachments/assets/3bcda38c-4109-40c6-8fb2-099075627bf3)
+![Screenshot 2024-09-20 230314](https://github.com/user-attachments/assets/9c7c7f83-dcbf-4c11-8452-31a3360658bb)
 
-Kemudian jika kita scroll ke bawah lagi maka akan ketemu filenya dengan format yang sesuai dengan yang diminta yaitu `clue3.txt` dan karena kita diminta untuk mencari hidden word dari ppt praktikum yaitu `cGVud29yZA==` setelah saya coba translate maka keluar hasilnya `penword` seperti foto dibawah
+Soal ketiga apabila dilihat di stream yg sama ada hint `lihat peraturan soal shift ada surprise` seperti dibawah
 
-![image](https://github.com/user-attachments/assets/bf8d95a9-3e5f-4d76-abd7-0b35b497ee86)
+![Screenshot 2024-09-20 230801](https://github.com/user-attachments/assets/be68a992-0cdf-4a85-8a00-682b61d2d613)
+
+Setelah dilihat ketemu code `cGVud29yZA== `
+
+![image](https://github.com/user-attachments/assets/7e3a4969-24d2-4939-982d-d83ad24e7730)
+
+Kemudian decode maka keluar hasilnya ``penword``
+
+![Screenshot 2024-09-20 231337](https://github.com/user-attachments/assets/7b136bde-938a-44b9-8b67-acbc8867c312)
+
 
 Setelah mengisi kata tersebut maka flag nya muncul ```JarkomIT{8uK4n_S4n1ty_b1a5A_NG6mtQVcQR8S3xkzYnhemX5DDSu5gHEDT2i8FqhR7m0QPf4VyMn5OIKK}``` seperti foto dibawah
 
@@ -24,10 +37,28 @@ Setelah mengisi kata tersebut maka flag nya muncul ```JarkomIT{8uK4n_S4n1ty_b1a5
 
 
 ## 2. Illegal Breakthrough
-Pada soal ini karena kita diminta untuk memasukkan ip address maka bisa dilihat yaitu ip nya `172.21.88.207` kemudian apabila dilihat port yang dipakai `1917`
-Disini terdapat nama dan password yang benar apabila di scroll, karena sebelumnya kebanyakan yang berisi username dan password salah
 
-![Screenshot 2024-09-18 224803](https://github.com/user-attachments/assets/38dd42d4-59a2-45b2-b561-0139994bfdeb)
+-Pada soal ini karena kita diminta untuk memasukkan ip address maka bisa dilihat yaitu ip nya `172.21.88.207`.
+
+![image](https://github.com/user-attachments/assets/97790d2b-5b97-4e83-8f9e-35d9e6ccaeb2)
+
+-kemudian soal selanjutnya ditanyakan port apabila dilihat port yang dipakai `1917` sesuai isi stream nya
+
+![image](https://github.com/user-attachments/assets/86078002-7b25-4713-9046-f8864828a4bc)
+
+-Kemudian soal selanjutnya ditanyakan endpoint pada login bisa dilihat disini
+
+![image](https://github.com/user-attachments/assets/bce9a992-8866-4697-b074-5a9bc89366e5)
+
+-Soal selanjutnya Tools apa yang digunakan oleh attacker, bisa dilihat disini tapi setelah saya coba isi ternyata masih salah dan saat dicoba singkat namanya kemudian version, maka berhasil `ffuf-v2.1.0-dev`
+
+![Screenshot 2024-09-20 233153](https://github.com/user-attachments/assets/b8f0fa8b-f277-4497-95e2-ce60094d013e)
+
+-Kemudian soal terakhir diminta masukkan nama dan password yg benar yaitu `username=Redbaron&password=fly1ng4c3` dengan format sesuai soal
+Disini terdapat nama dan password yang benar apabila di scroll di ``tcp.stream eq 1917`` karena sebelumnya kebanyakan yang berisi username dan password salah
+
+![Screenshot 2024-09-20 234038](https://github.com/user-attachments/assets/f24287d7-fd44-4156-b917-5fc210cec99e)
+
 
 Maka setelah saya masukkan username sesuai ketentuan dan juga kredensial nya ketemu flagnya ```JarkomIT{d34th_fr0m_th3_sky_eVLCFiVmEs6ivZzSBLaOjIlX7H1UD2hdgdRRynPVvJz7RhUag1nuWW1}``` seperti foto dibawah
 
@@ -37,19 +68,77 @@ Maka setelah saya masukkan username sesuai ketentuan dan juga kredensial nya ket
 
 
 ## 3. Pegawai Negeri Sebelah
+-Soal pertama kita diminta Siapa yang memiliki password nNnM%coQuF? yaitu `Vero Tampubolon,nNnM%coQuF,Kepala Bidang`
+
+![Screenshot 2024-09-21 000004](https://github.com/user-attachments/assets/b6b18c58-8426-4c57-bed8-a64ac28c7ec5)
+
+-Soal kedua Apa jabatan dari Taufan Kuswandari? yaitu `Analisis Kebijakan`
+
+![image](https://github.com/user-attachments/assets/4971b1fa-2ef2-4b9f-a92c-365d240c83ab)
+
+-Soal ketiga Siapa yang paling awal di list? yaitu `Cici Mustofa`
+
+![image](https://github.com/user-attachments/assets/8263937c-b036-44ff-b2d0-3d84a526ec23)
+
+-Soal terakhir Apa password paling akhir dari list? yaitu `RyxaJPv^yF`
+
+![image](https://github.com/user-attachments/assets/c4270488-e9a0-4f39-bb9d-48e3da68af62)
+
+
 Maka ketemu flagnya yaitu ```JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_wEsBuGICvKvgGn8UdXxWV7R8QL3Pdkf13GT79rrbrNvxGDZj2XlHM4h}```
 
 ![image](https://github.com/user-attachments/assets/1e41cf63-c377-4d7b-b563-432ea3fa4733)
 
 ## 4. FTP Login
+Pertama kita cari stream dengan status login successfull yaitu di 
+
+![image](https://github.com/user-attachments/assets/6ca93244-61b0-492a-84e8-91d9540a2c38)
+
+-Soal pertama username yg berhasil login? yaitu `sn34ky`
+
+![image](https://github.com/user-attachments/assets/9bf47b3d-a276-4c52-a458-ae84ec6bde39)
+
+-Soal kedua password apa yang digunakan utk login? yaitu `sup3rsn1ff3r`
+
+![image](https://github.com/user-attachments/assets/e34e43fc-96ca-432e-a1cc-d87b451ee0fc)
+
 Maka ketemu flagnya ```JarkomIT{n0t_s0_s3cur3_ftp_7YYw3gFIH8alHPCxsqhlKVctGL0yOQsuJ5BZ3govZ1YTV9JrfiMgG1N}``` 
 ![image](https://github.com/user-attachments/assets/f94d31de-814e-4388-b9a3-51bf6e18cea6)
 
 ## 5. EZ
+Pertama kita coba analyze > follow > tcp kemudian ditanya
+-Soal pertama ditanya Temukan jawaban dari log tersebut, setelah di scroll ketemu yaitu `jawabannya jawaban`
+
+![image](https://github.com/user-attachments/assets/0f5921eb-5cac-43ea-9ba6-10a0a66d84ee)
+
+
+-Soal kedua ditanya port yang digunakan, dan apabila diihat bagian bawah maka terlihat portnya `1234`
+
+![image](https://github.com/user-attachments/assets/e9d36389-b2f7-4f08-8a11-b4037be4f32b)
+
 Maka ketemu flagnya ```JarkomIT{BiAr_aman_Pake_sSh_qulMxGpPKZSPwAThtIYoz9mmF3zheXysRaYPzoNosL6rJMBs6kZ0EZ}```
+
 ![image](https://github.com/user-attachments/assets/66e7d72e-a9b2-4a76-a925-36213dd8737f)
 
 ## 6. Surprise
+-Soal pertama Apa service yang digunakan pada FTP server? yaitu `vsFTPd 3.0.3` karena apabila kita tcp > follow yang keluar dengan format sama seperti soal yg paling atas
+
+![image](https://github.com/user-attachments/assets/cc353a1f-e60d-450a-b993-f1263fe95da7)
+
+-Soal kedua Apa nama file yang dikirim oleh attacker? yaitu `g0tcha.cpp` karena setelah saya scroll yang memiliki format extension hanya file tsb
+
+![image](https://github.com/user-attachments/assets/a1a0be94-4ea7-445d-81f5-4849fcfc87f0)
+
+-Soal ketiga Apa pesan rahasia yang ditinggalkan oleh attacker? awalnya krn file tsb dalam c++ jadi saya coba ctrl + F > g0tcha.cpp dan 
+setelah di scroll keluar code dalam bahasa c
+
+![image](https://github.com/user-attachments/assets/d18ff3f9-f016-45f9-ac03-ba511777fd00)
+
+kemudian saya jalankan di compiler maka keluar pesan `g0tchu n0w l1ttl3 m0us3`
+
+![image](https://github.com/user-attachments/assets/4b5ef54b-cda5-4cfd-b2df-2195c8bcb61d)
+
+
 Maka ketemu flagnya ```JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_vtEF19Ky4LQuzaQNbNyeAqVSRG0b7grUqihe9dOn4NAn9FRS5kWWTCHU}```
 ![image](https://github.com/user-attachments/assets/581d11eb-644d-4d5d-a83a-2968f9eecc87)
 
