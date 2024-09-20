@@ -9,28 +9,29 @@
 
 
 ## 1. Advance Sanity Check
-Soal pertama kita diminta untuk memasukkan username, pada bagian kanan bawah kalau di scroll ketemu username nya yaitu JaneD03
+-Soal pertama kita diminta untuk memasukkan username, pada bagian kanan bawah kalau di scroll ketemu username nya yaitu JaneD03
 
 ![Screenshot 2024-09-18 194357](https://github.com/user-attachments/assets/94cf0324-a66e-47c8-b445-ef47a73be808)
 
-Soal kedua kita diminta nama file, jika di scroll ketemu nama filenya `clue3.txt` sesuai format soal
+-Soal kedua kita diminta nama file, jika di scroll ketemu nama filenya `clue3.txt` sesuai format soal
 
 ![Screenshot 2024-09-20 230314](https://github.com/user-attachments/assets/9c7c7f83-dcbf-4c11-8452-31a3360658bb)
 
-Soal ketiga apabila dilihat di stream yg sama ada hint `lihat peraturan soal shift ada surprise` seperti dibawah
+-Soal ketiga apabila dilihat di stream yg sama ada hint `lihat peraturan soal shift ada surprise` seperti dibawah
 
 ![Screenshot 2024-09-20 230801](https://github.com/user-attachments/assets/be68a992-0cdf-4a85-8a00-682b61d2d613)
 
 Setelah dilihat ketemu code `cGVud29yZA== `
 
-![image](https://github.com/user-attachments/assets/7e3a4969-24d2-4939-982d-d83ad24e7730)
+![Screenshot 2024-09-21 011655](https://github.com/user-attachments/assets/9bc46918-42ba-46c7-8c29-0b081be8893d)
 
 Kemudian decode maka keluar hasilnya ``penword``
 
 ![Screenshot 2024-09-20 231337](https://github.com/user-attachments/assets/7b136bde-938a-44b9-8b67-acbc8867c312)
 
 
-Setelah mengisi kata tersebut maka flag nya muncul ```JarkomIT{8uK4n_S4n1ty_b1a5A_NG6mtQVcQR8S3xkzYnhemX5DDSu5gHEDT2i8FqhR7m0QPf4VyMn5OIKK}``` seperti foto dibawah
+Setelah mengisi kata tersebut maka flag nya muncul ```JarkomIT{8uK4n_S4n1ty_b1a5A_NG6mtQVcQR8S3xkzYnhemX5DDSu5gHEDT2i8FqhR7m0QPf4VyMn5OIKK}``` 
+seperti foto dibawah
 
 
 ![image](https://github.com/user-attachments/assets/8b0caf60-2864-4ee3-8fac-721a0ec12762)
@@ -89,6 +90,7 @@ Maka ketemu flagnya yaitu ```JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_wEsBuGICvKvgG
 
 ![image](https://github.com/user-attachments/assets/1e41cf63-c377-4d7b-b563-432ea3fa4733)
 
+
 ## 4. FTP Login
 Pertama kita cari stream dengan status login successfull yaitu di 
 
@@ -105,12 +107,13 @@ Pertama kita cari stream dengan status login successfull yaitu di
 Maka ketemu flagnya ```JarkomIT{n0t_s0_s3cur3_ftp_7YYw3gFIH8alHPCxsqhlKVctGL0yOQsuJ5BZ3govZ1YTV9JrfiMgG1N}``` 
 ![image](https://github.com/user-attachments/assets/f94d31de-814e-4388-b9a3-51bf6e18cea6)
 
+
 ## 5. EZ
 Pertama kita coba analyze > follow > tcp kemudian ditanya
+
 -Soal pertama ditanya Temukan jawaban dari log tersebut, setelah di scroll ketemu yaitu `jawabannya jawaban`
 
 ![image](https://github.com/user-attachments/assets/0f5921eb-5cac-43ea-9ba6-10a0a66d84ee)
-
 
 -Soal kedua ditanya port yang digunakan, dan apabila diihat bagian bawah maka terlihat portnya `1234`
 
@@ -119,6 +122,7 @@ Pertama kita coba analyze > follow > tcp kemudian ditanya
 Maka ketemu flagnya ```JarkomIT{BiAr_aman_Pake_sSh_qulMxGpPKZSPwAThtIYoz9mmF3zheXysRaYPzoNosL6rJMBs6kZ0EZ}```
 
 ![image](https://github.com/user-attachments/assets/66e7d72e-a9b2-4a76-a925-36213dd8737f)
+
 
 ## 6. Surprise
 -Soal pertama Apa service yang digunakan pada FTP server? yaitu `vsFTPd 3.0.3` karena apabila kita tcp > follow yang keluar dengan format sama seperti soal yg paling atas
@@ -141,6 +145,7 @@ kemudian saya jalankan di compiler maka keluar pesan `g0tchu n0w l1ttl3 m0us3`
 
 Maka ketemu flagnya ```JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_vtEF19Ky4LQuzaQNbNyeAqVSRG0b7grUqihe9dOn4NAn9FRS5kWWTCHU}```
 ![image](https://github.com/user-attachments/assets/581d11eb-644d-4d5d-a83a-2968f9eecc87)
+
 
 ## 7. Corporate Breach
 Maka ketemu flagnya ```JarkomIT{supp0rt_k0k_l3m4h_bg_OQdBDF2AA2DBAnJswpq0prn63G6RpMVNpvrEDtwbW2HYW2Lzsy4oG6}```
