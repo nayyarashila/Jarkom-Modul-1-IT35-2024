@@ -133,8 +133,8 @@ Maka ketemu flagnya ```JarkomIT{BiAr_aman_Pake_sSh_qulMxGpPKZSPwAThtIYoz9mmF3zhe
 
 ![image](https://github.com/user-attachments/assets/a1a0be94-4ea7-445d-81f5-4849fcfc87f0)
 
--Soal ketiga Apa pesan rahasia yang ditinggalkan oleh attacker? awalnya krn file tsb dalam c++ jadi saya coba ctrl + F > g0tcha.cpp dan 
-setelah di scroll keluar code dalam bahasa c
+-Soal ketiga Apa pesan rahasia yang ditinggalkan oleh attacker? awalnya krn file tsb dalam c++ jadi saya coba 
+ctrl + F > g0tcha.cpp dan setelah di scroll keluar code dalam bahasa c
 
 ![image](https://github.com/user-attachments/assets/d18ff3f9-f016-45f9-ac03-ba511777fd00)
 
@@ -148,30 +148,92 @@ Maka ketemu flagnya ```JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_vtEF19Ky4LQuzaQNbNyeAq
 
 
 ## 7. Corporate Breach
+-Soal pertama Siapa nama attacker? setelah kita scroll maka ketemu namanya yaitu `Nakhimov` 
+
+![image](https://github.com/user-attachments/assets/ecf5ebd2-7285-42bd-b36b-347963068639)
+
+-Soal kedua Apa email yang digunakan untuk login? yaitu terletak di stream 108 dengan email `jarkomsupport@gmail.com`
+
+![image](https://github.com/user-attachments/assets/5ea41e5b-0c73-4757-980f-3dce112ce46e)
+
+-soal ketiga Apa password yang digunakan untuk login? yaitu `j4rk0mg4c0rbg`
+
+![image](https://github.com/user-attachments/assets/67b1969d-09ff-4486-860e-d2201fffe284)
+
+
 Maka ketemu flagnya ```JarkomIT{supp0rt_k0k_l3m4h_bg_OQdBDF2AA2DBAnJswpq0prn63G6RpMVNpvrEDtwbW2HYW2Lzsy4oG6}```
 ![image](https://github.com/user-attachments/assets/2e1c36f6-ba01-44a0-b501-bdeece632ff4)
 
+
 ## 8. Gajah Terbang (Server Recon)
-Awalnya kita diminta untuk memasukkan DBMS yang digunakan bisa didapatkan dari melihat PGSQL nya, kemudian port yg digunakan bisa dilihat di wireshark nya dan setelah saya coba memasukkan `6969` berhasil, kemudian pertanyaan yang lain seperti email, password, database juga didapatkan dari informasi seperti foto dibawah.
-Untuk pertanyaan password, kita diharuskan untuk decode dari kode yang diberikan dari awalnya `c93ccd78b2076528346216b3b2f701e6` setelah saya decode menjadi `admin1234`
+-Soal pertama Apa DBMS yang digunakan pada server tersebut? kemudian kalau di scroll PGSQL itu banyak jadi saya coba masukkan ternyata benar yaitu `PostgreSQL`
 
-![Screenshot 2024-09-18 225950](https://github.com/user-attachments/assets/256e4551-e619-415a-a6f3-d2588116ac59)
+![image](https://github.com/user-attachments/assets/73e0a32a-8b79-4156-a0a9-a7bbe4f6afc7)
 
+-Soal kedua Di port berapa DBMS server tersebut berjalan? kemudian kalau dilihat port `6969` itu banyak digunakan sehingga saya coba masukkan ternyata benar
+
+-Soal ketiga OS apa yang digunakan untuk server tersebut? yaitu `Debian` 
+
+-Soal keempat Apa credentials username DBMS valid yang digunakan? yaitu `s1gm4`
+
+![Screenshot 2024-09-21 114442](https://github.com/user-attachments/assets/5a5060f2-de99-4317-9f26-a0486963511b)
+
+-Soal kelima Apa nama database yang digunakan? yaitu `sigmaskibidigyatrizzzz`
+
+![image](https://github.com/user-attachments/assets/cbd98b61-b7a7-44b7-87dc-1d7bd4afb83a)
+
+-Soal keenam Ada berapa banyak users dalam database tersebut? yaitu ada `4`
+
+![image](https://github.com/user-attachments/assets/3f7604fb-d688-455a-b6fb-4ebece56fe26)
+
+-Soal ketujuh Apa email yang digunakan oleh admin? yaitu `jojohermawan@gmail.com.`
+
+![image](https://github.com/user-attachments/assets/80354909-021d-4f44-8c0f-380ddd5eb993)
+
+-Soal kedelapan Apa password yang digunakan oleh admin? yaitu `c93ccd78b2076528346216b3b2f701e6` 
+
+![image](https://github.com/user-attachments/assets/c274b2d9-9180-45d5-9803-f11f6500d054)
+
+Karena harus decode jadinya `admin1234` adalah password
 
 ![Screenshot 2024-09-18 230354](https://github.com/user-attachments/assets/2bc16bea-923e-439d-abda-f4036d0f2cb6)
+
 
 Maka ketemu flagnya ```JarkomIT{Gy4tT_M5g_4U_lpokFThhxI2J6va3hogx1NFb15k1JbRMKXppQAsg8IndqhVCwneZABiD1}``` 
 
 ![Screenshot 2024-09-18 230336](https://github.com/user-attachments/assets/a32b2d92-d8b4-45af-9751-234a2bb4d36a)
 
-## 9. Gajah Terbang (Attacker Recon)
-Pertanyaan pertama saya mencoba memasukkan akun kunto aji, kemudian berhasil. Karena kita diminta untuk memasukkan password tetapi password nya harus di decode dari `aa1cbddbb1667f7227bcfdb25772f85c` menjadi `kissme`. Pertanyaan yang lain juga berdasarkan informasi yang ada. Untuk menghitung transaksi tinggal ditambah harga rokok dan eskrim yang tercantum sehingga menjadi 24.500.
 
-![Screenshot 2024-09-18 232536](https://github.com/user-attachments/assets/fa654932-3f84-4f91-90b4-22902f8bb963)
+## 9. Gajah Terbang (Attacker Recon)
+-Soal pertama Akun apa yang dimiliki oleh penyerang dalam database tersebut, berikan emailnya! saya coba masukkan akun kunto aji krn dia adalah user yg terkena banned dengan id akunnya adalah 3 ternyata benar `kuntoajiisrillll@gmail.com`
+
+![image](https://github.com/user-attachments/assets/80fe8e8e-dff0-4a1d-9232-d576ff4ee3bd)
+
+-Soal kedua Apa password yang digunakan oleh penyerang? yaitu `aa1cbddbb1667f7227bcfdb25772f85c` sehingga setelah decode keluar `kissme`
+
+![image](https://github.com/user-attachments/assets/d43d6016-fdaf-4c8c-82c9-3f2eaf2c6ab1)
+
+-Soal ketiga Pada tanggal berapa akun penyerang diban? yaitu `2024-06-09`
+
+![image](https://github.com/user-attachments/assets/922e4b00-90a8-45bd-a2c8-cf065108fe6d)
+
+-Soal keempat Table apa saja yang dimodifikasi oleh penyerang? yaitu` users dan banned_users` karena yang di update tabel tsb
+
+![image](https://github.com/user-attachments/assets/8b3727e4-2ed4-410e-bc69-6d2dce17281a)
+
+-soal kelima Barang apa saja yang telah dibeli oleh penyerang? yaitu `rokok dan es krim`
+
+![image](https://github.com/user-attachments/assets/2467717b-994a-41e3-8e2f-dac83b4c9dcb)
+
+-soal keenam Berapa total transaksi dari barang yang dibeli oleh penyerang? yaitu `24500` karena dari hasil penambahan harga rokok dan es krim
+
+![image](https://github.com/user-attachments/assets/93ffc7b2-c000-4172-96f9-1f516fccb6aa)
+
 
 Maka ketemu flagnya ``` JarkomIT{G4jaH_K0k_t3RbaNG_LeQuu8Zh476F8FOdm1DXnblAuYntqED4yRb8OLjnDIQpGdVLh50FrKt5}```
 
 ![Screenshot 2024-09-18 232512](https://github.com/user-attachments/assets/46955747-119e-41a6-aca0-7260e583d5c7)
+
 
 ## 10. Packets Barrage
 Pertanyaan pertama dapat dilihat dari source
