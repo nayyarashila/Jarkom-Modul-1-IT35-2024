@@ -351,3 +351,32 @@ Flag
 ![image](https://github.com/user-attachments/assets/7437d0e4-3278-4dca-8aa6-9ecd80b2e305)
 
 
+# REVISI
+
+## 1. Simba
+
+Soal pertama apakah service yang compromise ? yaitu `SMB` dapat dilihat krn banyaknya penggunaan service yg banyak
+
+![image](https://github.com/user-attachments/assets/8f2e6ee7-cff6-414d-8413-0d6028390744)
+
+Soal kedua sebutkan user yang compromise ? yaitu `mmeyers` karena dari banyaknya user yang saya coab ini berhasil dan ada pesan yang mencurigakan sebelum nama user tsb
+
+![Screenshot 2024-09-22 211937](https://github.com/user-attachments/assets/0aed89ca-fdc5-4a2c-a15d-4f57ecbc185a)
+
+soal ketiga Ada berapa file yang berhasil ter-leak dari hasil enumerasi protokol/service tersebut? yaitu `14` karena kalau dilakukan export file > smb kita bisa lihat ada 14 file yang file size nya tidak 0 bytes
+
+![image](https://github.com/user-attachments/assets/8557b16c-bc9b-409d-ae4a-0d68f3fdfb51)
+
+maka ketemu flagnya `JarkomIT{4PaK4h_M3nD1nG_p4K3_SFTP_e1hIf6xOqFMqjNA80wLnBN5OZAaxy2KiweXBPsGZSH7YNTiY2oaxSMB}`
+berikut buktinya
+
+![Screenshot 2024-09-22 211454](https://github.com/user-attachments/assets/7b1b60a1-eb98-4231-84b3-c88ff308aa8c)
+
+![Screenshot 2024-09-22 211519](https://github.com/user-attachments/assets/f5039d06-c415-4f58-b9a7-1c6246e72396)
+
+![image](https://github.com/user-attachments/assets/9037d46b-e967-4c95-af39-bddfc88209a8)
+
+
+
+
+
